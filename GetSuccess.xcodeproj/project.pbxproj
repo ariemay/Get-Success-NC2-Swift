@@ -13,6 +13,10 @@
 		8D314AB8241BB67600B1402E /* StoryListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D314AB7241BB67600B1402E /* StoryListViewController.swift */; };
 		8D314ABD241BC06300B1402E /* StoryDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D314ABC241BC06300B1402E /* StoryDetailViewController.swift */; };
 		8D314ABF241C472600B1402E /* Persons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D314ABE241C472600B1402E /* Persons.swift */; };
+		8D314AC1241D359B00B1402E /* ReflectionsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D314AC0241D359B00B1402E /* ReflectionsListViewController.swift */; };
+		8D314AC3241D36C500B1402E /* ReflectionInputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D314AC2241D36C500B1402E /* ReflectionInputViewController.swift */; };
+		8D314AC5241D39F000B1402E /* Refleksi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D314AC4241D39F000B1402E /* Refleksi.swift */; };
+		8D314AC7241D422200B1402E /* DataRefleksi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D314AC6241D422200B1402E /* DataRefleksi.swift */; };
 		8D39E93524115CCA00D15487 /* Diary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D39E93424115CCA00D15487 /* Diary.swift */; };
 		8D39E93B2412099500D15487 /* DiaryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D39E93A2412099500D15487 /* DiaryTableViewController.swift */; };
 		8D39E93F2412586D00D15487 /* DetailDiaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D39E93E2412586D00D15487 /* DetailDiaryViewController.swift */; };
@@ -34,6 +38,10 @@
 		8D314AB7241BB67600B1402E /* StoryListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryListViewController.swift; sourceTree = "<group>"; };
 		8D314ABC241BC06300B1402E /* StoryDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryDetailViewController.swift; sourceTree = "<group>"; };
 		8D314ABE241C472600B1402E /* Persons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persons.swift; sourceTree = "<group>"; };
+		8D314AC0241D359B00B1402E /* ReflectionsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReflectionsListViewController.swift; sourceTree = "<group>"; };
+		8D314AC2241D36C500B1402E /* ReflectionInputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReflectionInputViewController.swift; sourceTree = "<group>"; };
+		8D314AC4241D39F000B1402E /* Refleksi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Refleksi.swift; sourceTree = "<group>"; };
+		8D314AC6241D422200B1402E /* DataRefleksi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataRefleksi.swift; sourceTree = "<group>"; };
 		8D39E93424115CCA00D15487 /* Diary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diary.swift; sourceTree = "<group>"; };
 		8D39E93A2412099500D15487 /* DiaryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryTableViewController.swift; sourceTree = "<group>"; };
 		8D39E93E2412586D00D15487 /* DetailDiaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailDiaryViewController.swift; sourceTree = "<group>"; };
@@ -72,6 +80,7 @@
 		8D314AB3241BB37B00B1402E /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				8D314AC4241D39F000B1402E /* Refleksi.swift */,
 				8D39E93424115CCA00D15487 /* Diary.swift */,
 			);
 			path = Models;
@@ -82,6 +91,7 @@
 			children = (
 				8D314AB5241BB3BB00B1402E /* Category.swift */,
 				8D314ABE241C472600B1402E /* Persons.swift */,
+				8D314AC6241D422200B1402E /* DataRefleksi.swift */,
 			);
 			path = Enums;
 			sourceTree = "<group>";
@@ -113,6 +123,8 @@
 				8D08151D241944CF00118A16 /* MotivCatViewController.swift */,
 				8D39E93A2412099500D15487 /* DiaryTableViewController.swift */,
 				8D39E93E2412586D00D15487 /* DetailDiaryViewController.swift */,
+				8D314AC0241D359B00B1402E /* ReflectionsListViewController.swift */,
+				8D314AC2241D36C500B1402E /* ReflectionInputViewController.swift */,
 				8D314AB4241BB38500B1402E /* Enums */,
 				8D314AB3241BB37B00B1402E /* Models */,
 				8D43FB03240FBBEE00075BD9 /* AppDelegate.swift */,
@@ -203,12 +215,16 @@
 				8D314ABF241C472600B1402E /* Persons.swift in Sources */,
 				8D08151E241944CF00118A16 /* MotivCatViewController.swift in Sources */,
 				8D43FB08240FBBEE00075BD9 /* ViewController.swift in Sources */,
+				8D314AC7241D422200B1402E /* DataRefleksi.swift in Sources */,
 				8D43FB04240FBBEE00075BD9 /* AppDelegate.swift in Sources */,
 				8D314AB8241BB67600B1402E /* StoryListViewController.swift in Sources */,
 				8D43FB3E241108D700075BD9 /* CreateDiaryViewController.swift in Sources */,
 				8D314AB6241BB3BB00B1402E /* Category.swift in Sources */,
 				8D39E93F2412586D00D15487 /* DetailDiaryViewController.swift in Sources */,
+				8D314AC1241D359B00B1402E /* ReflectionsListViewController.swift in Sources */,
 				8D43FB06240FBBEE00075BD9 /* SceneDelegate.swift in Sources */,
+				8D314AC5241D39F000B1402E /* Refleksi.swift in Sources */,
+				8D314AC3241D36C500B1402E /* ReflectionInputViewController.swift in Sources */,
 				8D39E93524115CCA00D15487 /* Diary.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

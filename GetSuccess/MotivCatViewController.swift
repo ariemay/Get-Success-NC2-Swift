@@ -43,6 +43,9 @@ class MotivCatViewController: UIViewController {
         performSegue(withIdentifier: "toStoryList", sender: self)
     }
     
+    @IBAction func toReflectionList(_ sender: UIButton) {
+        performSegue(withIdentifier: "toReflectionList", sender: self)
+    }
     
     
 }
