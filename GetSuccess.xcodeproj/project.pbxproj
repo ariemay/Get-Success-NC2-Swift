@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		8D08151E241944CF00118A16 /* MotivCatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D08151D241944CF00118A16 /* MotivCatViewController.swift */; };
 		8D0815242419B26800118A16 /* SF-Pro-Display-Regular.dataset in Resources */ = {isa = PBXBuildFile; fileRef = 8D0815222419B26800118A16 /* SF-Pro-Display-Regular.dataset */; };
+		8D30F005241EB7FF0058E8C7 /* ReflectionDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D30F004241EB7FF0058E8C7 /* ReflectionDetailViewController.swift */; };
 		8D314AB6241BB3BB00B1402E /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D314AB5241BB3BB00B1402E /* Category.swift */; };
 		8D314AB8241BB67600B1402E /* StoryListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D314AB7241BB67600B1402E /* StoryListViewController.swift */; };
 		8D314ABD241BC06300B1402E /* StoryDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D314ABC241BC06300B1402E /* StoryDetailViewController.swift */; };
@@ -34,6 +35,7 @@
 		8D0815222419B26800118A16 /* SF-Pro-Display-Regular.dataset */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "SF-Pro-Display-Regular.dataset"; path = "GetSuccess/Assets.xcassets/Fonts/SF-Pro-Display-Regular.dataset"; sourceTree = "<group>"; };
 		8D081546241A3A1D00118A16 /* Contents.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
 		8D081547241A3A1D00118A16 /* SF-Pro-Display-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Black.otf"; sourceTree = "<group>"; };
+		8D30F004241EB7FF0058E8C7 /* ReflectionDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReflectionDetailViewController.swift; sourceTree = "<group>"; };
 		8D314AB5241BB3BB00B1402E /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 		8D314AB7241BB67600B1402E /* StoryListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryListViewController.swift; sourceTree = "<group>"; };
 		8D314ABC241BC06300B1402E /* StoryDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryDetailViewController.swift; sourceTree = "<group>"; };
@@ -125,6 +127,7 @@
 				8D39E93E2412586D00D15487 /* DetailDiaryViewController.swift */,
 				8D314AC0241D359B00B1402E /* ReflectionsListViewController.swift */,
 				8D314AC2241D36C500B1402E /* ReflectionInputViewController.swift */,
+				8D30F004241EB7FF0058E8C7 /* ReflectionDetailViewController.swift */,
 				8D314AB4241BB38500B1402E /* Enums */,
 				8D314AB3241BB37B00B1402E /* Models */,
 				8D43FB03240FBBEE00075BD9 /* AppDelegate.swift */,
@@ -217,6 +220,7 @@
 				8D43FB08240FBBEE00075BD9 /* ViewController.swift in Sources */,
 				8D314AC7241D422200B1402E /* DataRefleksi.swift in Sources */,
 				8D43FB04240FBBEE00075BD9 /* AppDelegate.swift in Sources */,
+				8D30F005241EB7FF0058E8C7 /* ReflectionDetailViewController.swift in Sources */,
 				8D314AB8241BB67600B1402E /* StoryListViewController.swift in Sources */,
 				8D43FB3E241108D700075BD9 /* CreateDiaryViewController.swift in Sources */,
 				8D314AB6241BB3BB00B1402E /* Category.swift in Sources */,

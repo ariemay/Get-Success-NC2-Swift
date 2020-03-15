@@ -44,7 +44,7 @@ class ReflectionInputViewController: UIViewController {
     }
     
     @IBAction func saveReflection(_ sender: UIButton) {
-        let data = Refleksi(titleRefleksi: self.titleInput.text ?? "Untitled", doneRefleksi: self.doneForm.text, learnRefleksi: self.learnForm.text, planRefleksi: self.planForm.text, regretRefleksi: self.regretForm.text, dateRefleksi: self.date)
+        let data = Refleksi(titleRefleksi: self.titleInput.text ?? "Untitled", doneRefleksi: self.doneForm.text ?? "N/A", learnRefleksi: self.learnForm.text ?? "N/A", planRefleksi: self.planForm.text ?? "N/A", regretRefleksi: self.regretForm.text ?? "N/A", dateRefleksi: self.date)
         self.delegate?.didCreateReflection(controller: self, reflections: data)
     }
     

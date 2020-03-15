@@ -22,7 +22,7 @@ class ReflectionsListViewController: UIViewController, UITableViewDelegate, UITa
         super.viewDidLoad()
         tableview.dataSource = self
         tableview.delegate = self
-        // Do any additional setup after loading the view.
+        getStoreData()
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
@@ -30,11 +30,12 @@ class ReflectionsListViewController: UIViewController, UITableViewDelegate, UITa
         case DataRefleksi.create.rawValue:
                 let vc = segue.destination as! ReflectionInputViewController
                 vc.delegate = self
-//            case "readReflection":
-//                if let indexPath = self.tableview.indexPathForSelectedRow {
-//                    let controller = segue.destination as! DetailDiaryViewController
-//                    controller.data = self.reflectionsArray[indexPath.row]
-//            }
+        case DataRefleksi.read.rawValue:
+            print("navigate to detail")
+                if let indexPath = self.tableview.indexPathForSelectedRow {
+                    let controller = segue.destination as! ReflectionDetailViewController
+                    controller.dataReflection = self.reflectionsArray[indexPath.row]
+            }
         case .none:
             break
         case .some(_):
@@ -50,6 +51,16 @@ class ReflectionsListViewController: UIViewController, UITableViewDelegate, UITa
     func apply(_ refleksi: Refleksi) {
         reflectionsArray.insert(refleksi, at: 0)
         storeData(reflectionsArray)
+    }
+    
+    func getStoreData() {
+        let refleksiData = UserDefaults.standard.data(forKey: "refleksi")
+        if let data = refleksiData {
+            print(data)
+            let refleksiArray = try! JSONDecoder().decode(Array<Refleksi>.self, from: data)
+            reflectionsArray = refleksiArray
+            print(reflectionsArray)
+        }
     }
     
     func storeData(_ refleksi: [Refleksi]) -> Void {
@@ -79,6 +90,10 @@ class ReflectionsListViewController: UIViewController, UITableViewDelegate, UITa
         cell.textLabel?.text = reflectionsArray[indexPath.item].titleRefleksi
         cell.detailTextLabel?.text = reflectionsArray[indexPath.item].dateRefleksi
         return cell
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        performSegue(withIdentifier: DataRefleksi.read.rawValue, sender: indexPath)
     }
     
 }
