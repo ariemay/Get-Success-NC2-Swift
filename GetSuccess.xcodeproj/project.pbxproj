@@ -28,6 +28,7 @@
 		8D43FB0D240FBBEE00075BD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D43FB0C240FBBEE00075BD9 /* Assets.xcassets */; };
 		8D43FB10240FBBEE00075BD9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D43FB0E240FBBEE00075BD9 /* LaunchScreen.storyboard */; };
 		8D43FB3E241108D700075BD9 /* CreateDiaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D43FB3D241108D700075BD9 /* CreateDiaryViewController.swift */; };
+		C6F79DCE241F8D6B007722A0 /* SchedulerPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F79DCD241F8D6B007722A0 /* SchedulerPageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +57,7 @@
 		8D43FB0F240FBBEE00075BD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8D43FB11240FBBEE00075BD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D43FB3D241108D700075BD9 /* CreateDiaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateDiaryViewController.swift; sourceTree = "<group>"; };
+		C6F79DCD241F8D6B007722A0 /* SchedulerPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchedulerPageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +130,7 @@
 				8D314AC0241D359B00B1402E /* ReflectionsListViewController.swift */,
 				8D314AC2241D36C500B1402E /* ReflectionInputViewController.swift */,
 				8D30F004241EB7FF0058E8C7 /* ReflectionDetailViewController.swift */,
+				C6F79DCD241F8D6B007722A0 /* SchedulerPageViewController.swift */,
 				8D314AB4241BB38500B1402E /* Enums */,
 				8D314AB3241BB37B00B1402E /* Models */,
 				8D43FB03240FBBEE00075BD9 /* AppDelegate.swift */,
@@ -214,6 +217,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D39E93B2412099500D15487 /* DiaryTableViewController.swift in Sources */,
+				C6F79DCE241F8D6B007722A0 /* SchedulerPageViewController.swift in Sources */,
 				8D314ABD241BC06300B1402E /* StoryDetailViewController.swift in Sources */,
 				8D314ABF241C472600B1402E /* Persons.swift in Sources */,
 				8D08151E241944CF00118A16 /* MotivCatViewController.swift in Sources */,

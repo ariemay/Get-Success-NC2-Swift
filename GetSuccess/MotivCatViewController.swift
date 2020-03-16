@@ -47,5 +47,8 @@ class MotivCatViewController: UIViewController {
         performSegue(withIdentifier: "toReflectionList", sender: self)
     }
     
+    @IBAction func goToSchedulerPage(_ sender: UIButton) {
+        performSegue(withIdentifier: "scheduler", sender: self)
+    }
     
 }
