@@ -12,9 +12,9 @@ class StoryListViewController: UIViewController, UITableViewDelegate, UITableVie
 
     @IBOutlet weak var tableview: UITableView!
     
-    let stories: [[String]] = [["Elon Musk", "Tesla and SpaceX Founder"], ["Steve Jobs", "Apple Founder"]]
-    let personalStories: [Persons] = [.elonmusk, .stevejobs]
-    let personalImage: [UIImage] = [#imageLiteral(resourceName: "elonmusk"), #imageLiteral(resourceName: "stevejobs")]
+    let stories: [[String]] = [["Elon Musk", "Tesla and SpaceX Founder"], ["Steve Jobs", "Apple Founder"], ["Jeff Bezos", "Founder and Owner of Amazone"]]
+    let personalStories: [Persons] = [.elonmusk, .stevejobs, .jeffbezos]
+    let personalImage: [UIImage] = [#imageLiteral(resourceName: "elonmusk"), #imageLiteral(resourceName: "stevejobs"), #imageLiteral(resourceName: "jeffbezos")]
     
     override func viewDidLoad() {
         super.viewDidLoad()
